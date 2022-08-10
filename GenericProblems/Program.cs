@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            MaxIntNumbers maxintnum = new MaxIntNumbers();
-            Console.WriteLine(maxintnum.NumberMax(10, 80, 10));
+            MaxFloatNumbers maxintnum = new MaxFloatNumbers();
+            Console.WriteLine(maxintnum.FloatNumber(10.5f, 80.6f, 10.5f));
         }
     }
 }
